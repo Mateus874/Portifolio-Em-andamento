@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./home.component.css" rel="stylesheet">
+    <link href="/Portifolio/src/assets/respansive.css" rel="stylesheet">
+    <title>Portfólio Mateus</title>
+</head>
+
+<body>
+
+    <main>
+        <aside>
+            <article>
+                <img id="FotoMateus" src="assets/FotoMateus.jpg" alt="FotoMateus">
+            </article>
+            <div id="NomeEcargo">
+                <h2 id="Nome">Mateus Oliveira</h2>
+                <p>Desenvolvedor de sistemas</p>
+            </div>
+
+            <form>
+                <h3 id="EntreEmContato">Entre em contato</h3>
+                <input [(ngModel)]="Nome" class="input Nome" type="text" placeholder="Digite seu Nome">
+                <input [(ngModel)]="Email" class="input Email" type="email" placeholder="Digite seu email">
+                <input [(ngModel)]="Texto" class="input Email" type="text" placeholder="Digite um texto">
+                <input class="input" id="submitBtn" type="button" value="Confirmar">
+            </form> 
+        </aside>
+
+        <aside id="sobre">
+            <article></article>
+            <h4>Discover</h4>
+            <h1>About</h1>
+            <p>Desenvolvedor fullstack. JAVA, javascript, html, css, sql, typescript, angular, jquery.</p>
+        </aside>
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+body{
+    font-size: x-small;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Mono', monospace; 
+    max-width: 1200px; 
+    height: 100%;
+    margin: 0 auto;
+    padding: px; 
+    background-image: none;
+}
+
+li{
+    display: inline-block;
+    margin: 30px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+#sobre{
+    border-top: 1px solid rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#FotoMateus{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+#NomeEcargo{
+    line-height: 1px;
+    font-size: medium;
+    line-height: 40px;
+}
+
+form{
+    margin-top: 100px;
+    display: block;
+    align-items: center;
+    line-height: 10px;
+    font-family: 'Roboto Mono', monospace;
+    justify-content: center;
+
+}
+
+
+a{
+    color: white;
+}
+
+
+
+
+
+input{
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    border-radius: 30px;
+    height: 20px;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+    justify-content: center;
+    
+    
+}   
+
+#button{
+    font-family: 'Roboto Mono', monospace;
+    
+    display: flex;
+    height: 28px;
+    width: 43%;
+    border: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: blueviolet;
+    padding: 15px;
+    
+    ;
+    
+}
+
+#button:hover{
+    cursor: pointer;
+    transform: matrix();
+}
+    
+#EntreEmContato{
+margin-left: 15px;
+}
+

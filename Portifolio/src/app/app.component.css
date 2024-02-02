@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+    #teste2{
+        margin: 0 auto;
+        padding: px;
+        background-image: url('../assets/spacex.jpg');
+        background-size:cover;
+        width: 100vw;
+        height: 100vh;
+        text-decoration: none;
+        
+    }
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding-top: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 0px;
+    color: azure;
+    text-decoration: none;
+    
+}
+
+a:visited {
+    color: white; /* Define a cor para links visitados */
+    
+}
+
+a:hover{
+    color: blueviolet;
+    transition: 0.3s all;
+    
+}
+
+.border{
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+
+    
+}
+
+li{
+    display: inline-block;
+    margin: 30px;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
